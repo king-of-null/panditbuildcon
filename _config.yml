@@ -1,5 +1,5 @@
-url: http://panditbuildcon.com
-baseurl: /panditbuildcon/
+url: "http://panditbuildcon.com"
+baseurl: ""
 
 # Site settings
 title: Pandit Build Consortium
