@@ -334,7 +334,9 @@ header {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
-    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -356,7 +358,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: "Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
@@ -381,6 +383,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         font-family: {{ site.data.template.font.primary }};
+        text-transform: uppercase;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
